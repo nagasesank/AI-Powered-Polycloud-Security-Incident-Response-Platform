@@ -1,0 +1,7 @@
+# Purpose: Provides example input values for the development environment without storing real environment-specific secrets.
+
+project_name       = "ai-powered-polycloud-security-incident-response-platform"
+environment        = "dev"
+aws_region         = "us-east-1"
+notification_email = "security@example.com"
+bedrock_model_id   = "example-model-id"

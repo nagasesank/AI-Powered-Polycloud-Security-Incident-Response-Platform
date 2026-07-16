@@ -1,3 +1,3 @@
 # Documentation
 
-This directory stores project documentation, including architecture references, diagrams, architectural decision records, and implementation evidence such as screenshots.
+This directory stores the repository's structured documentation for architecture evolution, implementation screenshots, validation evidence, and long-form project writeups.

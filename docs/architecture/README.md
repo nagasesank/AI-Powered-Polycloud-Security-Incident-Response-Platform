@@ -1,3 +1,3 @@
-# Architecture Documents
+# Architecture
 
-Place high-level and detailed architecture documents here, including domain boundaries, control flows, trust zones, and future cross-cloud extension models.
+This directory contains phase-by-phase architecture artifacts, design visuals, and the final consolidated architecture view for the platform.

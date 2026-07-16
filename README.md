@@ -1,74 +1,152 @@
 # AI-Powered Polycloud Security Incident Response Platform
 
-## Project Overview
+An enterprise engineering portfolio project focused on building an AI-assisted, event-driven, serverless incident response platform for cloud security operations. The repository is designed to demonstrate production-minded architecture, reusable Terraform design, and an extensible documentation model that starts with AWS and is intentionally structured for future multi-cloud expansion.
 
-This repository provides the enterprise foundation for an AI-powered cloud security incident response platform. Version 1 is intentionally scoped to Amazon Web Services (AWS), while the repository layout, documentation model, and infrastructure boundaries are designed from day one to support future Microsoft Azure and Google Cloud Platform (GCP) integration.
+---
 
-The current repository contains only the project skeleton, documentation scaffolding, placeholder files, and initial configuration required to begin implementation in a controlled and extensible way. No infrastructure resources, Lambda business logic, or prompt content are implemented at this stage.
+## Project Vision
 
-## Architecture Phases
+The goal of this project is to build an AI-assisted, event-driven, serverless, vendor-neutral incident response platform using AWS, Terraform, and Amazon Bedrock. The platform is intended to ingest security-relevant events, enrich evidence, evaluate response options with AI assistance, and preserve human validation at critical control points before action is taken.
 
-The program is organized as a phased delivery model:
+From an engineering perspective, the project emphasizes modularity, cost efficiency, auditability, and portability. Version 1 targets AWS as the initial execution environment, while the architectural model, repository conventions, and documentation approach are designed to support future Azure and Google Cloud integration without requiring a redesign of the overall system.
 
-1. Phase 1: Problem definition and operating model alignment
-2. Phase 2: Initial solution architecture and service selection
-3. Phase 3: Security event source mapping and response workflow design
-4. Phase 4: AI-assisted decisioning and control-plane design
-5. Phase 5: Terraform module boundaries and environment strategy
-6. Phase 6: Repository foundation, documentation scaffolding, and implementation readiness
-7. Phase 7: AWS implementation of infrastructure, automation, and AI orchestration
+---
+
+## Key Features
+
+- AI-assisted incident analysis
+- Event-driven architecture
+- Serverless-first design
+- Human-in-the-loop validation
+- Infrastructure as Code
+- Near zero-cost lab
+- Modular Terraform
+- Polycloud-ready architecture
+
+---
+
+## Technology Stack
+
+- Terraform
+- AWS
+- Amazon Bedrock
+- AWS Lambda
+- Amazon EventBridge
+- AWS Step Functions
+- Amazon SNS
+- AWS CloudTrail
+- GitHub
+- GitHub Actions (Future)
+
+---
+
+## Project Architecture Evolution
+
+| Phase | Status |
+|--------|--------|
+| Phase 0 - Environment Validation | Completed |
+| Phase 1 - Security Problem Definition | Completed |
+| Phase 2 - Threat Modeling | Completed |
+| Phase 3 - Detection Requirements & Evidence Mapping | Completed |
+| Phase 4 - Vendor-Neutral Logical Architecture | Completed |
+| Phase 5 - AWS Service Mapping | Completed |
+| Phase 6 - Terraform Repository Design | Completed |
+| Phase 7 - Terraform Implementation | In Progress |
+| Phase 8 - Bedrock Integration | Planned |
+| Phase 9 - Attack Simulation | Planned |
+| Phase 10 - Documentation & Blog | Planned |
+
+---
 
 ## Repository Structure
 
-```text
-AI-Powered-Polycloud-Security-Incident-Response-Platform/
-|-- .github/
-|   `-- workflows/
-|-- docs/
-|   |-- adr/
-|   |-- architecture/
-|   |-- diagrams/
-|   `-- screenshots/
-|-- lambda/
-|   |-- decision-validator/
-|   `-- evidence-normalizer/
-|-- prompts/
-|-- sample-events/
-|-- scripts/
-`-- terraform/
-    |-- environments/
-    |   `-- dev/
-    `-- modules/
-        |-- bedrock/
-        |-- cloudtrail/
-        |-- eventbridge/
-        |-- lambda/
-        |-- sns/
-        `-- stepfunctions/
-```
+`terraform/`
+Contains the reusable infrastructure-as-code foundation for the platform, including root configuration, environment entry points, and modular service boundaries.
 
-## Current Status
+`lambda/`
+Contains function workspaces for evidence processing, decision validation, and future serverless execution components.
 
-Current status: Phase 6
+`docs/`
+Contains architecture artifacts, phase documentation, screenshots, validation evidence, and blog-ready project content.
 
-This repository is prepared for Phase 7 implementation. The structure now supports:
+`scripts/`
+Contains operational helper scripts reserved for future deployment and teardown workflows.
 
-- modular Terraform development
-- AWS-first environment rollout
-- controlled expansion toward Azure and GCP
-- documentation-driven architecture governance
-- future CI/CD, testing, and operational automation
+`prompts/`
+Contains placeholder prompt assets for future AI-assisted incident reasoning and workflow control.
 
-## Future Roadmap
+`sample-events/`
+Contains representative event samples for testing, validation, and future scenario simulation.
 
-Planned next steps include:
+`.github/`
+Contains repository automation scaffolding and future CI/CD workflow definitions.
 
-- implementing AWS Terraform modules without breaking cross-cloud extensibility
-- defining Lambda packaging and deployment conventions
-- introducing prompt lifecycle management for AI-assisted decisions
-- adding automated validation, security scanning, and pipeline guardrails
-- expanding the architecture model for Azure and GCP event ingestion and response patterns
+---
+
+## Documentation
+
+Project documentation is organized for both engineering execution and portfolio presentation:
+
+- [docs/phases](docs/phases/) for phase-by-phase engineering summaries and deliverables
+- [docs/architecture](docs/architecture/) for architecture visuals and final design artifacts
+- [docs/screenshots](docs/screenshots/) for milestone evidence and implementation snapshots
+- [docs/evidence](docs/evidence/) for Terraform evidence, CLI output, validation records, and AWS Console proof
+
+---
+
+## Current Progress
+
+Current Phase:  
+Phase 7 - Terraform Implementation
+
+Current Objective:  
+Build the production-ready AWS infrastructure using reusable Terraform modules.
+
+---
+
+## Roadmap
+
+- [x] Phase 0
+- [x] Phase 1
+- [x] Phase 2
+- [x] Phase 3
+- [x] Phase 4
+- [x] Phase 5
+- [x] Phase 6
+- [ ] Phase 7
+- [ ] Phase 8
+- [ ] Phase 9
+- [ ] Phase 10
+
+---
+
+## Project Principles
+
+- Event Driven
+- Serverless First
+- Infrastructure as Code
+- AI Assisted
+- Human-in-the-Loop
+- Least Privilege
+- Near Zero Cost
+- Vendor Neutral
+- Reusable Modules
+- Production Ready
+
+---
+
+## Future Enhancements
+
+- GitHub Actions
+- Multi-cloud connectors
+- SOAR integration
+- Slack notifications
+- Microsoft Teams integration
+- Automatic containment
+- Incident dashboard
+
+---
 
 ## License
 
-This repository is released under the Apache License 2.0. See [LICENSE](LICENSE) for full terms.
+MIT License

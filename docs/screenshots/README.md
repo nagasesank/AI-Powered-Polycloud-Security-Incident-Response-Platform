@@ -1,3 +1,3 @@
 # Screenshots
 
-Capture validated UI evidence, workflow demonstrations, and operational snapshots in this folder as the platform evolves.
+This directory contains phase-by-phase screenshots that capture implementation progress, console evidence, and milestone validation snapshots.
