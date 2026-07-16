@@ -1,0 +1,2 @@
+[Placeholder]
+Reserved for incident-specific prompt content in a future implementation phase.
