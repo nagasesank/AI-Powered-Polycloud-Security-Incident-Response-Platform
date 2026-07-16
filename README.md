@@ -6,7 +6,7 @@
 
 ## Hero Banner Placeholder
 
-Placeholder asset reference: [docs/assets/hero-banner.png](docs/assets/hero-banner.png)
+Placeholder asset reference: [Banner](hero-banner.jpg)
 
 ---
 
