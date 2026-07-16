@@ -1,82 +1,76 @@
 # AI-Powered Polycloud Security Incident Response Platform
 
-An enterprise engineering project focused on building an AI-assisted, event-driven, serverless incident response platform for cloud security operations. Version 1 targets AWS, with a repository structure designed for modular Terraform delivery, human-in-the-loop security workflows, and future multi-cloud expansion.
+**Enterprise AI-Assisted Cloud Security Engineering Project**
 
-This repository is intentionally organized as a professional engineering project rather than a tutorial. Design artifacts, progress tracking, evidence folders, and phase documentation are maintained alongside the implementation scaffold so architecture and delivery decisions remain reviewable over time.
+---
+
+## Hero Banner Placeholder
+
+Placeholder asset reference: [docs/assets/hero-banner.png](docs/assets/hero-banner.png)
 
 ---
 
 ## Project Overview
 
-The platform is intended to support cloud security incident response through structured event intake, evidence normalization, orchestration, and AI-assisted decision support. The current repository state reflects completed planning and repository design phases, with implementation now focused on Terraform-based AWS infrastructure delivery.
-
-Detailed design history and phase-by-phase context are documented under the [`docs/`](docs/) directory.
+This repository documents and scaffolds an enterprise-style cloud security engineering project centered on AI-assisted incident response.  
+Version 1 targets AWS and uses a modular Terraform-first repository design to prepare for secure, reviewable infrastructure delivery.  
+The architecture is event-driven, serverless-first, and intentionally vendor-neutral so future Azure and Google Cloud integrations can be introduced without redesigning the core operating model.  
+Documentation is organized by phase to preserve architectural decisions, validation evidence, and implementation readiness before infrastructure build-out begins.  
+Current work is transitioning from repository design into Phase 7 implementation planning and execution.
 
 ---
 
 ## Key Features
 
-- AI-assisted incident analysis
-- Event-driven architecture
-- Serverless-first design
-- Human-in-the-loop validation
+- AI-Assisted Incident Response
+- Event-Driven Architecture
+- Serverless First
 - Infrastructure as Code
-- Modular Terraform structure
-- Near zero-cost lab posture
-- Polycloud-ready architecture
-
----
-
-## Architecture Diagram Placeholder
-
-The final architecture image placeholder is available at:
-
-- [docs/architecture/final/final-ai-powered-polycloud-security-incident-response-platform.png](docs/architecture/final/final-ai-powered-polycloud-security-incident-response-platform.png)
-
-Additional phase-based architecture artifacts are maintained in [`docs/architecture/`](docs/architecture/).
-
----
-
-## Technology Stack
-
-| Category | Technologies |
-|----------|--------------|
-| Infrastructure as Code | Terraform |
-| Cloud Platform | AWS |
-| Audit and Event Source | AWS CloudTrail |
-| Event Routing | Amazon EventBridge |
-| Serverless Processing | AWS Lambda |
-| Workflow Orchestration | AWS Step Functions |
-| Notifications | Amazon SNS |
-| AI Assistance | Amazon Bedrock |
-| Source Control | GitHub |
-| Development Workflow | GitHub Desktop, VS Code |
-
----
-
-## Project Progress
-
-| Phase | Status |
-|-------|--------|
-| Phase 0 - Environment Validation | Completed |
-| Phase 1 - Security Problem Definition | Completed |
-| Phase 2 - Threat Modeling | Completed |
-| Phase 3 - Detection Requirements & Evidence Mapping | Completed |
-| Phase 4 - Vendor-Neutral Logical Architecture | Completed |
-| Phase 5 - AWS Service Mapping | Completed |
-| Phase 6 - Terraform Repository Design | Completed |
-| Phase 7 - Terraform Implementation | In Progress |
-| Phase 8 - Amazon Bedrock Integration | Planned |
-| Phase 9 - Attack Simulation | Planned |
-| Phase 10 - Documentation & Blog | Planned |
+- Human-in-the-Loop
+- Near Zero Cost
+- Vendor Neutral
+- Modular Terraform
 
 ---
 
 ## Current Status
 
-**Current Phase:** Phase 7 - Terraform Implementation
+| Item | Status |
+|------|--------|
+| Current Phase | Phase 7 - Terraform Implementation |
+| Overall Progress | 70% |
 
-The repository has completed planning, architecture, service mapping, and Terraform scaffolding phases. Current work is centered on building reusable Terraform infrastructure for the AWS-first implementation.
+---
+
+## Project Progress
+
+| Phase | Area | Status |
+|-------|------|--------|
+| Phase 0 | Environment Validation | Completed |
+| Phase 1 | Security Problem Definition | Completed |
+| Phase 2 | Threat Modeling | Completed |
+| Phase 3 | Detection Requirements & Evidence Mapping | Completed |
+| Phase 4 | Vendor-Neutral Logical Architecture | Completed |
+| Phase 5 | AWS Service Mapping | Completed |
+| Phase 6 | Terraform Repository Design | Completed |
+| Phase 7 | Terraform Implementation | In Progress |
+| Phase 8 | Amazon Bedrock Integration | Planned |
+| Phase 9 | Attack Simulation | Planned |
+| Phase 10 | Documentation & Blog | Planned |
+
+---
+
+## Technology Stack
+
+Terraform, AWS, CloudTrail, EventBridge, Lambda, Step Functions, SNS, Amazon Bedrock, GitHub, GitHub Desktop, and VS Code.
+
+---
+
+## Architecture
+
+Final architecture placeholder: [docs/architecture/final/final-ai-powered-polycloud-security-incident-response-platform.png](docs/architecture/final/final-ai-powered-polycloud-security-incident-response-platform.png)
+
+The final architecture visual will be completed after implementation evidence is available.
 
 ---
 
@@ -84,22 +78,32 @@ The repository has completed planning, architecture, service mapping, and Terraf
 
 | Path | Purpose |
 |------|---------|
-| `terraform/` | Root Terraform workspace with environments and reusable modules |
-| `lambda/` | Placeholder workspaces for future serverless processing components |
-| `scripts/` | Operational helper scripts reserved for deployment lifecycle support |
-| `prompts/` | Placeholder prompt assets for future AI-assisted workflows |
-| `sample-events/` | Sample security event payloads for validation and future simulation |
-| `docs/` | Architecture, evidence, screenshots, and phase documentation |
-| `.github/` | Repository automation scaffolding and future workflow configuration |
+| `terraform/` | Root Terraform workspace containing environments, reusable modules, and shared configuration files. |
+| `lambda/` | Placeholder workspaces for future serverless processing components and validation functions. |
+| `scripts/` | Operational helper scripts reserved for deployment lifecycle support. |
+| `prompts/` | Placeholder prompt assets for future AI-assisted security workflows. |
+| `sample-events/` | Example event payloads reserved for validation and future simulation use. |
+| `docs/` | Architecture, evidence, screenshots, assets, and phase documentation for the project. |
+| `.github/` | Repository automation scaffolding and future workflow configuration. |
 
 ---
 
-## Documentation Links
+## Documentation
 
 - [docs/phases](docs/phases/) - phase-by-phase engineering summaries
-- [docs/architecture](docs/architecture/) - architecture artifacts and placeholders
+- [docs/architecture](docs/architecture/) - architecture artifacts and image placeholders
 - [docs/screenshots](docs/screenshots/) - milestone screenshot structure
 - [docs/evidence](docs/evidence/) - evidence, validation, and proof folders
+
+---
+
+## Current Sprint
+
+| Item | Focus |
+|------|-------|
+| Current Goal | Build reusable Terraform infrastructure |
+| Current Module | IAM |
+| Next Milestone | First Phase 7 implementation checkpoint |
 
 ---
 
@@ -116,18 +120,6 @@ The repository has completed planning, architecture, service mapping, and Terraf
 - [ ] Phase 8 - Amazon Bedrock Integration
 - [ ] Phase 9 - Attack Simulation
 - [ ] Phase 10 - Documentation & Blog
-
----
-
-## Future Enhancements
-
-- GitHub Actions
-- SOAR integration
-- Slack integration
-- Microsoft Teams integration
-- Automatic containment workflows
-- Cloud support expansion
-- Multi-cloud connectors
 
 ---
 
