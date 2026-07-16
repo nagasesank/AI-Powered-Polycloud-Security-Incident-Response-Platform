@@ -5,11 +5,11 @@
 
 ## Project Overview
 
-This repository documents and scaffolds an enterprise-style cloud security engineering project centered on AI-assisted incident response.  
-Version 1 targets AWS and uses a modular Terraform-first repository design to prepare for secure, reviewable infrastructure delivery.  
-The architecture is event-driven, serverless-first, and intentionally vendor-neutral so future Azure and Google Cloud integrations can be introduced without redesigning the core operating model.  
-Documentation is organized by phase to preserve architectural decisions, validation evidence, and implementation readiness before infrastructure build-out begins.  
-Current work is transitioning from repository design into Phase 7 implementation planning and execution.
+1. This repository documents and scaffolds an enterprise-style cloud security engineering project centered on AI-assisted incident response.  
+2. Version 1 targets AWS and uses a modular Terraform-first repository design to prepare for secure, reviewable infrastructure delivery.  
+3. The architecture is event-driven, serverless-first, and intentionally vendor-neutral so future Azure and Google Cloud integrations can be introduced without redesigning the core operating model.  
+4. Documentation is organized by phase to preserve architectural decisions, validation evidence, and implementation readiness before infrastructure build-out begins.  
+5. Current work is transitioning from repository design into Phase 7 implementation planning and execution.
 
 
 ## Key Features
