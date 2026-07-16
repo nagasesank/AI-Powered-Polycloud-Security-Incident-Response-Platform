@@ -1,14 +1,7 @@
 # AI-Powered Polycloud Security Incident Response Platform
 
-**Enterprise AI-Assisted Cloud Security Engineering Project**
 
----
-
-## Hero Banner Placeholder
-
-Placeholder asset reference: [Banner](hero-banner.jpg)
-
----
+<img width="1024" height="572" alt="e69a991d-8923-4c23-8b2d-efbaab869005" src="https://github.com/user-attachments/assets/bd4642c1-5c4d-4d79-96d6-b6268848b26f" />
 
 ## Project Overview
 
@@ -18,7 +11,6 @@ The architecture is event-driven, serverless-first, and intentionally vendor-neu
 Documentation is organized by phase to preserve architectural decisions, validation evidence, and implementation readiness before infrastructure build-out begins.  
 Current work is transitioning from repository design into Phase 7 implementation planning and execution.
 
----
 
 ## Key Features
 
@@ -31,8 +23,6 @@ Current work is transitioning from repository design into Phase 7 implementation
 - Vendor Neutral
 - Modular Terraform
 
----
-
 ## Current Status
 
 | Item | Status |
@@ -40,7 +30,6 @@ Current work is transitioning from repository design into Phase 7 implementation
 | Current Phase | Phase 7 - Terraform Implementation |
 | Overall Progress | 70% |
 
----
 
 ## Project Progress
 
@@ -58,13 +47,11 @@ Current work is transitioning from repository design into Phase 7 implementation
 | Phase 9 | Attack Simulation | Planned |
 | Phase 10 | Documentation & Blog | Planned |
 
----
 
 ## Technology Stack
 
 Terraform, AWS, CloudTrail, EventBridge, Lambda, Step Functions, SNS, Amazon Bedrock, GitHub, GitHub Desktop, and VS Code.
 
----
 
 ## Architecture
 
@@ -72,7 +59,6 @@ Final architecture placeholder: [docs/architecture/final/final-ai-powered-polycl
 
 The final architecture visual will be completed after implementation evidence is available.
 
----
 
 ## Repository Structure
 
@@ -86,7 +72,6 @@ The final architecture visual will be completed after implementation evidence is
 | `docs/` | Architecture, evidence, screenshots, assets, and phase documentation for the project. |
 | `.github/` | Repository automation scaffolding and future workflow configuration. |
 
----
 
 ## Documentation
 
@@ -94,8 +79,6 @@ The final architecture visual will be completed after implementation evidence is
 - [docs/architecture](docs/architecture/) - architecture artifacts and image placeholders
 - [docs/screenshots](docs/screenshots/) - milestone screenshot structure
 - [docs/evidence](docs/evidence/) - evidence, validation, and proof folders
-
----
 
 ## Current Sprint
 
@@ -105,7 +88,6 @@ The final architecture visual will be completed after implementation evidence is
 | Current Module | IAM |
 | Next Milestone | First Phase 7 implementation checkpoint |
 
----
 
 ## Roadmap
 
@@ -120,8 +102,6 @@ The final architecture visual will be completed after implementation evidence is
 - [ ] Phase 8 - Amazon Bedrock Integration
 - [ ] Phase 9 - Attack Simulation
 - [ ] Phase 10 - Documentation & Blog
-
----
 
 ## License
 
